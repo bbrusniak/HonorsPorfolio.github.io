@@ -1,3 +1,40 @@
+/*
+  Extra Resource: https://www.canva.com/learn/website-color-schemes/
+  Color Palettes: https://www.canva.com/colors/color-palettes/
+  Color Scheme: https://www.canva.com/colors/color-palettes/mermaid-lagoon/
+*/
+
 body {
-  background-color: green;
+  background-color: #0D5F8A;
+}
+
+#nav-bar {
+  margin-top: 2%;
+  width: 30%;
+  margin-left: 35%;
+}
+
+h1 {
+  margin-left: 30%;
+  width: 50%;
+}
+
+.classes-button {
+  background-color: #335120;
+  border-color: #335120;
+}
+
+.clubs-button {
+  background-color: #335120;
+  border-color: #335120;
+}
+
+.research-button {
+  background-color: #335120;
+  border-color: #335120;
+}
+
+.teaching-button {
+  background-color: #335120;
+  border-color: #335120;
 }
