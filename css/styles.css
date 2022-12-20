@@ -10,8 +10,7 @@ body {
 
 #nav-bar {
   margin-top: 2%;
-  width: 30%;
-  margin-left: 35%;
+  margin-left: 32%;
 }
 
 h1 {
@@ -37,4 +36,14 @@ h1 {
 .teaching-button {
   background-color: #335120;
   border-color: #335120;
+}
+
+.carousel img {
+  height: 300px;
+  width: 300px;
+}
+
+#home-images {
+  margin-left: 40%;
+  margin-top: 20px;
 }
