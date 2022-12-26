@@ -1,8 +1,21 @@
 .card img {
   width: 100%;
+  margin-bottom: 2%;
 }
 
 .card {
   width: 24rem;
-  margin: 0px;
+  text-align: center;
+}
+
+.row {
+  margin: 1rem;
+}
+
+nav > a {
+  background-color: #2e8bc0;
+}
+
+.card:hover {
+  background-color: pink;
 }

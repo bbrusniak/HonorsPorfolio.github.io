@@ -4,6 +4,10 @@
   Color Scheme: https://www.canva.com/colors/color-palettes/mermaid-lagoon/
 */
 
+h1 {
+  text-align: center;
+}
+
 body {
   background-color: #0D5F8A;
 }

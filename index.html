@@ -7,74 +7,83 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link href="css/styles.css" rel="stylesheet" />
         <link href="css/home-page.css" rel="stylesheet" />
+        <link href="css/nav-bar.css" rel="stylesheet" />
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </head>
     <body>
-      <h1>Benjamin Brusniak Honors Portfolio</h1>
-      <div id="nav-bar" class="container-fluid">
-        <div class="btn-group">
-          <button type="button" class="btn btn-danger dropdown-toggle classes-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Classes
-          </button>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="./classes/computer-science-courses/ComputerScience.html">Computer Science Courses</a>
-            <a class="dropdown-item" href="./classes/honors-courses/Honors.html">Honors Courses</a>
-            <a class="dropdown-item" href="./classes/Misc-courses/Misc.html">Misc. Courses</a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><img src="images/misc/uw-honors-program-banner.png"/></li>
+        </ul>
+      </nav>
+      <div>
+        <h1>Benjamin Brusniak Honors Portfolio</h1>
+        <div id="nav-bar">
+          <div class="btn-group">
+            <button type="button" class="btn btn-danger dropdown-toggle classes-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Classes
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="./classes/computer-science-courses/ComputerScience.html">Computer Science Courses</a>
+              <a class="dropdown-item" href="./classes/honors-courses/Honors.html">Honors Courses</a>
+              <a class="dropdown-item" href="./classes/Misc-courses/Misc.html">Misc. Courses</a>
+            </div>
+          </div>
+          <div class="btn-group">
+            <button type="button" class="btn btn-danger dropdown-toggle clubs-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Experiential Learning
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Impact++</a>
+              <a class="dropdown-item" href="#">Research</a>
+            </div>
+          </div>
+          <div class="btn-group">
+            <button type="button" class="btn btn-danger dropdown-toggle teaching-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Teaching
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">CSE 142</a>
+              <a class="dropdown-item" href="#">CSE 154</a>
+            </div>
+          </div>
+          <div class="btn-group">
+            <button type="button" class="btn btn-danger dropdown-toggle teaching-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Internships
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Ghost Pacer</a>
+              <a class="dropdown-item" href="#">Oracle</a>
+              <a class="dropdown-item" href="#">Amazon</a>
+              <a class="dropdown-item" href="#">Microsoft</a>
+            </div>
+          </div>
+          <div class="btn-group">
+            <button type="button" class="btn btn-danger dropdown-toggle research-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Themes
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Life, the Universe, and everything</a>
+            </div>
           </div>
         </div>
-        <div class="btn-group">
-          <button type="button" class="btn btn-danger dropdown-toggle clubs-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Clubs
-          </button>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Impact++</a>
-            <a class="dropdown-item" href="#">KSA</a>
-          </div>
-        </div>
-        <div class="btn-group">
-          <button type="button" class="btn btn-danger dropdown-toggle research-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Research
-          </button>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Stako</a>
-          </div>
-        </div>
-        <div class="btn-group">
-          <button type="button" class="btn btn-danger dropdown-toggle teaching-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Teaching
-          </button>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">CSE 142</a>
-            <a class="dropdown-item" href="#">CSE 154</a>
-          </div>
-        </div>
-        <div class="btn-group">
-          <button type="button" class="btn btn-danger dropdown-toggle teaching-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Internships
-          </button>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Ghost Pacer</a>
-            <a class="dropdown-item" href="#">Oracle</a>
-            <a class="dropdown-item" href="#">Amazon</a>
-            <a class="dropdown-item" href="#">Microsoft</a>
-          </div>
-        </div>
-      </div>
-      <div id="home-images" class="carousel slide" data-ride="carousel" data-interval="3000">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="" src="images/home-images/on_poles.jpg">
-          </div>
-          <div class="carousel-item">
-            <img class="" src="images/home-images/dawg_dash.JPG">
-          </div>
-          <div class="carousel-item">
-            <img class="" src="images/home-images/bridge_boys.jpg">
-          </div>
-          <div class="carousel-item">
-            <img class="" src="images/home-images/mac_and_cheetos.jpg">
+        <div id="home-images" class="carousel" data-ride="carousel" data-interval="3000">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="" src="images/home-images/on_poles.jpg">
+            </div>
+            <div class="carousel-item">
+              <img class="" src="images/home-images/dawg_dash.JPG">
+            </div>
+            <div class="carousel-item">
+              <img class="" src="images/home-images/bridge_boys.jpg">
+            </div>
+            <div class="carousel-item">
+              <img class="" src="images/home-images/mac_and_cheetos.jpg">
+            </div>
           </div>
         </div>
       </div>

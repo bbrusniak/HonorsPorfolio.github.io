@@ -1,0 +1,36 @@
+nav {
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  background-color: #333;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  padding: 10px;
+  text-decoration: none;
+}
+
+nav li img {
+  height: 50px;
+  position: absolute;
+  right: 0px;
+}
+
+nav img {
+  height: 50px;
+}
+
+nav li:hover {
+  background-color: #3786E1;
+}
