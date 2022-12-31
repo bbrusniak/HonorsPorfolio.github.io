@@ -11,3 +11,7 @@ h1 {
 body {
   background-color: #0D5F8A;
 }
+
+body {
+  min-width: 850px;
+}

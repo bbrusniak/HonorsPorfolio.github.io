@@ -32,7 +32,3 @@ body > div {
   flex-direction: column;
   align-items: center;
 }
-
-body {
-  min-width: 850px;
-}
