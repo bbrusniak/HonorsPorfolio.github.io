@@ -18,7 +18,7 @@ nav li a[href*="index.html"], nav li a {
   padding: 0px;
   margin: 0px;
   border: 0px;
-  position: fixed;
+  position: absolute;
   line-height: 50px;
   text-align: center;
   padding-left: 10px;
