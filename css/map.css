@@ -15,6 +15,16 @@ nav + h1 + p {
   padding: 10px;
 }
 
+.legend a {
+  color: black;
+  opacity: 60%;
+}
+
+.legend a:hover {
+  text-decoration: none;
+  opacity: 100%;
+}
+
 .pink-highlight {
   background-color: pink;
 }
