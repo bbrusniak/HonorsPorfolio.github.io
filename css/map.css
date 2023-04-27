@@ -1,0 +1,68 @@
+body {
+  background-color: white;
+}
+
+nav + h1 + p {
+  text-align: center
+}
+
+.legend {
+  position: fixed;
+  top: 75px;
+  left: 30px;
+  display: inline;
+  background-color: #666;
+  padding: 10px;
+}
+
+.pink-highlight {
+  background-color: pink;
+}
+
+.red-highlight {
+  background-color: green;
+}
+
+.orange-highlight {
+  background-color: orange;
+}
+
+.quarter {
+  padding: 10px;
+  text-align: center;
+}
+
+.quarter > img {
+  width: 200px;
+  height: 200px;
+  border-radius: 300px;
+}
+
+#map {
+  margin-left: 60px;
+}
+
+#map > div > div:hover {
+  background-color: rgb(219, 219, 219);
+}
+
+.horizontal {
+  border: none;
+  border-top: 1px dotted black;
+}
+
+#row1, #row2, #row3, #row4, #row5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 90%;
+  margin-bottom: 1%;
+}
+
+#row1, #row3, #row5 {
+  margin-left: auto;
+}
+
+#row2, #row4 {
+  margin-right: auto;
+}
