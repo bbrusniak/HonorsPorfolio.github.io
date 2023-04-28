@@ -32,15 +32,33 @@
 
   function addClick() {
     let quarters = document.querySelectorAll("#map .quarter");
+    console.log("hi");
     console.log(quarters);
     quarters.forEach(e => {
+        let quarterSummary = e.querySelector(".quarter-summary");
+        let closeButton = e.querySelector(".quarter-summary button");
+        let quarterImage = e.querySelector("img");
+        let quarterName = e.querySelector("img + div");
         e.addEventListener("click", () => {
-          console.log("hello");
-          e.querySelector(".quarter-summary").classList.remove("hide");
-          e.querySelector(".quarter-summary").classList.add(".show-list");
-          e.querySelector("img").classList.add("hide");
-          e.querySelector("img + div").classList.add("hide");
+          if (quarterSummary) {
+            quarterSummary.classList.remove("hide");
+            quarterSummary.classList.add("show-list");
+          }
+          quarterImage.classList.add("hide");
+          quarterName.classList.add("hide");
       });
+      if (closeButton) {
+        closeButton.addEventListener("click", () => {
+          console.log("burh");
+          console.log(quarterSummary);
+          console.log(quarterImage);
+          console.log(quarterName);
+          quarterSummary.classList.remove("show-list");
+          quarterSummary.classList.add("hide");
+          quarterImage.classList.remove("hide");
+          quarterName.classList.remove("hide");
+        });
+      }
     });
   }
 
