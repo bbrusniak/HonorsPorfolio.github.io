@@ -37,6 +37,7 @@
         e.addEventListener("click", () => {
           console.log("hello");
           e.querySelector(".quarter-summary").classList.remove("hide");
+          e.querySelector(".quarter-summary").classList.add(".show-list");
           e.querySelector("img").classList.add("hide");
           e.querySelector("img + div").classList.add("hide");
       });

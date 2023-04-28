@@ -59,6 +59,16 @@ nav + h1 + p {
   height: 200px;
 }
 
+.quarter-summary button {
+  align-self: flex-start;
+}
+
+.show-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 #map {
   margin-left: 60px;
 }
