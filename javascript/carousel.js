@@ -10,6 +10,7 @@
 	function init() {
     setUpImageMap();
     addCarousels();
+    addClick();
 	}
 
   function setUpImageMap() {
@@ -29,8 +30,21 @@
     QUARTER_IMG_TIMERS.set("20SP", null);
   }
 
+  function addClick() {
+    let quarters = document.querySelectorAll("#map .quarter");
+    console.log(quarters);
+    quarters.forEach(e => {
+        e.addEventListener("click", () => {
+          console.log("hello");
+          e.querySelector(".quarter-summary").classList.remove("hide");
+          e.querySelector("img").classList.add("hide");
+          e.querySelector("img + div").classList.add("hide");
+      });
+    });
+  }
+
   function addCarousels() {
-    let quarters = document.querySelectorAll("#map > div > div");
+    let quarters = document.querySelectorAll("#map .quarter");
     quarters.forEach(e => {
       let quarterImage = e.querySelector("img");
       let quarter = e.querySelector("div").textContent;
@@ -53,7 +67,6 @@
     currCount = (currCount % images.length);
     QUARTER_IMG_NUM.set(quarter, currCount);
     quarterImage.src = "images/" + quarter + "/" + images[currCount];
-    console.log(currCount);
   }
 
   function pauseCarousel(quarter) {
