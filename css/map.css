@@ -36,16 +36,37 @@ nav + h1 + p {
 }
 
 .red-highlight {
-  background-color: green;
+  background-color: red;
 }
 
 .orange-highlight {
   background-color: orange;
 }
 
+.yellow-highlight {
+  background-color: yellow;
+}
+
+.green-highlight {
+  background-color: green;
+}
+
+.blue-highlight {
+  background-color: blue;
+}
+
+.purple-highlight {
+  background-color: purple;
+}
+
 .quarter {
   padding: 10px;
   text-align: center;
+}
+
+.quarter-summary {
+  text-align:left;
+  font-size: 12px;
 }
 
 .quarter > img {
