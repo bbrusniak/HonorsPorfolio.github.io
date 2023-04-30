@@ -9,6 +9,11 @@
     addHighlightOnMouseOver("honors-label", ".honors-course", "pink-highlight");
     addHighlightOnMouseOver("teaching-label", ".teaching", "red-highlight");
     addHighlightOnMouseOver("research-label", ".research", "orange-highlight");
+    addHighlightOnMouseOver("impact-label", ".impact", "yellow-highlight");
+    addHighlightOnMouseOver("work-label", ".work", "green-highlight");
+    addHighlightOnMouseOver("cs-classes-label", ".cs-course", "blue-highlight");
+    addHighlightOnMouseOver("misc-label", ".misc", "purple-highlight");
+
 	}
 
   function drawPaths() {

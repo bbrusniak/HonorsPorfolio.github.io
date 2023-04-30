@@ -26,7 +26,7 @@ nav + h1 + p {
   display: block;
 }
 
-.legend a:hover {
+.legend a:hover, .quarter-summary a {
   text-decoration: none;
   opacity: 100%;
 }
@@ -36,32 +36,36 @@ nav + h1 + p {
 }
 
 .red-highlight {
-  background-color: red;
+  background-color: tomato;
 }
 
 .orange-highlight {
-  background-color: orange;
+  background-color: lightcoral;
 }
 
 .yellow-highlight {
-  background-color: yellow;
+  background-color: lightgoldenrodyellow;
 }
 
 .green-highlight {
-  background-color: green;
+  background-color: lightgreen;
 }
 
 .blue-highlight {
-  background-color: blue;
+  background-color: lightblue;
 }
 
 .purple-highlight {
-  background-color: purple;
+  background-color: lavender;
 }
 
 .quarter {
   padding: 10px;
   text-align: center;
+}
+
+.quarter:hover {
+  cursor: pointer;
 }
 
 .quarter-summary {
@@ -70,14 +74,14 @@ nav + h1 + p {
 }
 
 .quarter > img {
-  width: 200px;
-  height: 200px;
+  width: 235px;
+  height: 235px;
   border-radius: 300px;
 }
 
 .quarter-summary {
-  width: 200px;
-  height: 200px;
+  width: 235px;
+  height: 235px;
 }
 
 .quarter-summary button {
