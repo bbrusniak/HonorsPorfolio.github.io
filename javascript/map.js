@@ -13,6 +13,12 @@
     addHighlightOnMouseOver("work-label", ".work", "green-highlight");
     addHighlightOnMouseOver("cs-classes-label", ".cs-course", "blue-highlight");
     addHighlightOnMouseOver("misc-label", ".misc", "purple-highlight");
+    document.getElementById("learning-statement-button").addEventListener('click', function() {
+      document.getElementById("legend").classList.toggle("hide");
+      document.getElementById("legend").classList.toggle("legend");
+      document.getElementById("map").classList.toggle("hide");
+      document.getElementById("learning-statement").classList.toggle("hide");
+    });
 
 	}
 

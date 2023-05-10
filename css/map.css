@@ -115,10 +115,15 @@ nav + h1 + p {
   margin-bottom: 1%;
 }
 
-#row1, #row3, #row5 {
+#row1, #row3, #row5, #learning-statement-button {
   margin-left: auto;
 }
 
-#row2, #row4 {
+#row2, #row4, #learning-statement-button {
   margin-right: auto;
+}
+
+#learning-statement-button {
+  display: block;
+  margin-bottom: 20px;
 }
