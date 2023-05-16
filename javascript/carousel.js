@@ -14,20 +14,25 @@
 	}
 
   function setUpImageMap() {
-    const AU_19_IMAGE_NAMES = ["Colliseum.jpg", "barry_bee_benson.jpg", "Raccoons.jpg"];
+    const AU_19_IMAGE_NAMES = ["Colliseum.jpg", "full_group_last_day.jpg", "colliseum_group.jpg", "fountain.jpg"];
     QUARTER_IMGS.set("19AU", AU_19_IMAGE_NAMES);
     QUARTER_IMG_NUM.set("19AU", 0);
     QUARTER_IMG_TIMERS.set("19AU", null);
 
-    const WI_20_IMAGE_NAMES = ["EmptyDorm.jpg", "NewYork.jpg"];
+    const WI_20_IMAGE_NAMES = ["EmptyDorm.jpg", "NewYork.jpg", "Toms.jpg", "311_Proof.jpg"];
     QUARTER_IMGS.set("20WI", WI_20_IMAGE_NAMES);
     QUARTER_IMG_NUM.set("20WI", 0);
     QUARTER_IMG_TIMERS.set("20WI", null);
 
-    const SP_20_IMAGE_NAMES = ["332_Screenshot.jpg", "TA_Application.jpg"];
+    const SP_20_IMAGE_NAMES = ["home.jpg", "332_Screenshot.jpg", "TA_Application.jpg"];
     QUARTER_IMGS.set("20SP", SP_20_IMAGE_NAMES);
     QUARTER_IMG_NUM.set("20SP", 0);
     QUARTER_IMG_TIMERS.set("20SP", null);
+
+    const SU_20_IMAGE_NAMES = ["camping.jpg", "poker_now.jpg", "ghost_pacer_setup.jpg", "kickstarter.jpg"];
+    QUARTER_IMGS.set("20SU", SU_20_IMAGE_NAMES);
+    QUARTER_IMG_NUM.set("20SU", 0);
+    QUARTER_IMG_TIMERS.set("20SU", null);
   }
 
   function addClick() {
