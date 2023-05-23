@@ -1,5 +1,12 @@
 body {
   background-color: white;
+  min-width: 850px;
+  /*background-color: #0D5F8A;*/
+  /*background-color: #158ecf;*/
+}
+
+h1 {
+  text-align: center;
 }
 
 nav + h1 + p {
@@ -77,11 +84,14 @@ nav + h1 + p {
   width: 235px;
   height: 235px;
   border-radius: 300px;
+  border: 1px solid black;
 }
 
 .quarter-summary {
   width: 235px;
-  height: 235px;
+  height: 260px;
+  padding: 10px;
+  background-color: rgb(219, 219, 219);
 }
 
 .quarter-summary button {
@@ -98,9 +108,6 @@ nav + h1 + p {
   margin-left: 60px;
 }
 
-#map .quarter:hover {
-  background-color: rgb(219, 219, 219);
-}
 
 .horizontal {
   border: none;
