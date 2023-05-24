@@ -22,6 +22,10 @@ body {
   margin: auto;
 }
 
+#artifact img {
+  width: 100%;
+}
+
 h1, #artifact {
   margin-bottom: 20px;
 }
