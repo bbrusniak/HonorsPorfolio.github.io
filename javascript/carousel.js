@@ -58,6 +58,36 @@
     QUARTER_IMGS.set("21AU", AU_21_IMAGE_NAMES);
     QUARTER_IMG_NUM.set("21AU", 0);
     QUARTER_IMG_TIMERS.set("21AU", null);
+
+    const WI_22_IMAGE_NAMES = ["Detlef_Clash_Meme.jpg", "amazon_view.jpg", "angela_josh_jame_cook.jpg"];
+    QUARTER_IMGS.set("22WI", WI_22_IMAGE_NAMES);
+    QUARTER_IMG_NUM.set("22WI", 0);
+    QUARTER_IMG_TIMERS.set("22WI", null);
+
+    const SP_22_IMAGE_NAMES = ["on_poles.jpg", "bridge_boys.jpg", "154_Final_Exam.jpg"];
+    QUARTER_IMGS.set("22SP", SP_22_IMAGE_NAMES);
+    QUARTER_IMG_NUM.set("22SP", 0);
+    QUARTER_IMG_TIMERS.set("22SP", null);
+
+    const SU_22_IMAGE_NAMES = ["monitors.jpg", "gas_station.jpg", "mamma_melina.jpg"];
+    QUARTER_IMGS.set("22SU", SU_22_IMAGE_NAMES);
+    QUARTER_IMG_NUM.set("22SU", 0);
+    QUARTER_IMG_TIMERS.set("22SU", null);
+
+    const AU_22_IMAGE_NAMES = ["dawg_dash.JPG", "halloween.jpg", "gingerbread.jpg"];
+    QUARTER_IMGS.set("22AU", AU_22_IMAGE_NAMES);
+    QUARTER_IMG_NUM.set("22AU", 0);
+    QUARTER_IMG_TIMERS.set("22AU", null);
+
+    const WI_23_IMAGE_NAMES = ["skiing.JPG", "pies.jpg", "dubs.jpg"];
+    QUARTER_IMGS.set("23WI", WI_23_IMAGE_NAMES);
+    QUARTER_IMG_NUM.set("23WI", 0);
+    QUARTER_IMG_TIMERS.set("23WI", null);
+
+    const SP_23_IMAGE_NAMES = ["cherry_blossom.jpg", "beths.jpg", "painting.jpg", "154Photo.JPG"];
+    QUARTER_IMGS.set("23SP", SP_23_IMAGE_NAMES);
+    QUARTER_IMG_NUM.set("23SP", 0);
+    QUARTER_IMG_TIMERS.set("23SP", null);
   }
 
   function addClick() {
