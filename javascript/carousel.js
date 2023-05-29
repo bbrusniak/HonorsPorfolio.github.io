@@ -29,10 +29,35 @@
     QUARTER_IMG_NUM.set("20SP", 0);
     QUARTER_IMG_TIMERS.set("20SP", null);
 
-    const SU_20_IMAGE_NAMES = ["camping.jpg", "poker_now.jpg", "ghost_pacer_setup.jpg", "kickstarter.jpg"];
+    const SU_20_IMAGE_NAMES = ["campsite.PNG", "camping.jpg", "poker_now.jpg", "ghost_pacer_setup.jpg", "kickstarter.jpg"];
     QUARTER_IMGS.set("20SU", SU_20_IMAGE_NAMES);
     QUARTER_IMG_NUM.set("20SU", 0);
     QUARTER_IMG_TIMERS.set("20SU", null);
+
+    const AU_20_IMAGE_NAMES = ["bomb_lab.jpg", "Calendar.jpg", "TA_Graduation.PNG"];
+    QUARTER_IMGS.set("20AU", AU_20_IMAGE_NAMES);
+    QUARTER_IMG_NUM.set("20AU", 0);
+    QUARTER_IMG_TIMERS.set("20AU", null);
+
+    const WI_21_IMAGE_NAMES = ["snow_backyard.PNG", "uw_snow.jpg", "docks.jpg"];
+    QUARTER_IMGS.set("21WI", WI_21_IMAGE_NAMES);
+    QUARTER_IMG_NUM.set("21WI", 0);
+    QUARTER_IMG_TIMERS.set("21WI", null);
+
+    const SP_21_IMAGE_NAMES = ["ML_Graph.JPG", "CSE333_Image.jpg", "Sophie_Nature.jpg"];
+    QUARTER_IMGS.set("21SP", SP_21_IMAGE_NAMES);
+    QUARTER_IMG_NUM.set("21SP", 0);
+    QUARTER_IMG_TIMERS.set("21SP", null);
+
+    const SU_21_IMAGE_NAMES = ["mountain.jpg", "benji_couch.jpg", "taco_bell.jpg"];
+    QUARTER_IMGS.set("21SU", SU_21_IMAGE_NAMES);
+    QUARTER_IMG_NUM.set("21SU", 0);
+    QUARTER_IMG_TIMERS.set("21SU", null);
+
+    const AU_21_IMAGE_NAMES = ["house_poker.jpg", "mac_and_cheetos.jpg", "football_score.jpg"];
+    QUARTER_IMGS.set("21AU", AU_21_IMAGE_NAMES);
+    QUARTER_IMG_NUM.set("21AU", 0);
+    QUARTER_IMG_TIMERS.set("21AU", null);
   }
 
   function addClick() {
