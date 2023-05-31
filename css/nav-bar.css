@@ -24,6 +24,7 @@ nav li a {
   padding-right: 10px;
   color: #37beb0;
   height: 100%;
+  display: inline-block;
 }
 
 
