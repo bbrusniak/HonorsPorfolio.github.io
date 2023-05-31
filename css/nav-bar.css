@@ -13,31 +13,19 @@ nav ul {
   margin: 0;
 }
 
-nav li a[href*="index.html"], nav li a {
+nav li a {
   text-decoration: none;
   padding: 0px;
   margin: 0px;
   border: 0px;
-  position: absolute;
   line-height: 50px;
   text-align: center;
   padding-left: 10px;
   padding-right: 10px;
-  color: #37beb0
+  color: #37beb0;
+  height: 100%;
 }
 
-nav li a[href*="index.html"] {
-  height: 50px;
-  width: 65px;
-  top: 0px;
-  left: 0px;
-}
-
-nav li a {
-  top: 0px;
-  left: 65px;
-  height: 50px;
-}
 
 nav li img {
   height: 50px;
@@ -49,7 +37,13 @@ nav img {
   height: 50px;
 }
 
-nav li a:hover, nav li a[href*="index.html"]:hover {
+nav li:hover {
   background-color: #3786E1;
   color: #37beb0;
+}
+
+nav li a:hover {
+  background-color: #3786E1;
+  color: #37beb0;
+  text-decoration: none;
 }

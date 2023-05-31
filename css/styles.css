@@ -4,9 +4,13 @@
   Color Scheme: https://www.canva.com/colors/color-palettes/mermaid-lagoon/
 */
 
-h1 {
+h1, h2 {
   margin-top: 20px;
   text-align: center;
+}
+
+h2 {
+  font-size: 14px
 }
 
 body {
